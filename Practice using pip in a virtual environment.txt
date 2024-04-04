@@ -1,0 +1,71 @@
+Microsoft Windows [Version 10.0.19045.4046]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\HOME\Desktop\python>python -m venv py3Env
+
+C:\Users\HOME\Desktop\python>call py3Env\Scripts\activate
+
+(py3Env) C:\Users\HOME\Desktop\python>pip list
+Package Version
+------- -------
+pip     24.0
+
+(py3Env) C:\Users\HOME\Desktop\python>deactivate
+C:\Users\HOME\Desktop\python>call py3Env\Scripts\activate
+
+(py3Env) C:\Users\HOME\Desktop\python>pip3 list
+Package Version
+------- -------
+pip     24.0
+
+(py3Env) C:\Users\HOME\Desktop\python>source myEnvironments/py3Env/bin/activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\HOME\Desktop\python>call myEnvironments/py3Env/Scripts/activate
+'myEnvironments' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\HOME\Desktop\python>pip install Django==2.2.4
+Collecting Django==2.2.4
+  Downloading Django-2.2.4-py3-none-any.whl (7.5 MB)
+     ---------------------------------------- 7.5/7.5 MB 2.3 MB/s eta 0:00:00
+Collecting pytz (from Django==2.2.4)
+  Downloading pytz-2024.1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting sqlparse (from Django==2.2.4)
+  Downloading sqlparse-0.4.4-py3-none-any.whl.metadata (4.0 kB)
+Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
+   ---------------------------------------- 505.5/505.5 kB 3.5 MB/s eta 0:00:00
+Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)
+   ---------------------------------------- 41.2/41.2 kB 1.9 MB/s eta 0:00:00
+Installing collected packages: pytz, sqlparse, Django
+Successfully installed Django-2.2.4 pytz-2024.1 sqlparse-0.4.4
+
+(py3Env) C:\Users\HOME\Desktop\python>pip freezpip freezepip freezepip freezepip freeze
+ERROR: unknown command "freezpip" - maybe you meant "freeze"
+
+(py3Env) C:\Users\HOME\Desktop\python>cd ~/Desktop
+The system cannot find the path specified.
+
+(py3Env) C:\Users\HOME\Desktop\python>pip freeze >
+The syntax of the command is incorrect.
+
+(py3Env) C:\Users\HOME\Desktop\python>requirements.txt
+'requirements.txt' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\HOME\Desktop\python>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+(py3Env) C:\Users\HOME\Desktop\python>pip uninstall Django
+Found existing installation: Django 2.2.4
+Uninstalling Django-2.2.4:
+  Would remove:
+    c:\users\home\desktop\python\py3env\lib\site-packages\django-2.2.4.dist-info\*
+    c:\users\home\desktop\python\py3env\lib\site-packages\django\*
+    c:\users\home\desktop\python\py3env\scripts\django-admin.exe
+    c:\users\home\desktop\python\py3env\scripts\django-admin.py
+Proceed (Y/n)? pip show Django
+Your response ('pip show django') was not one of the expected responses: y, n,
+Proceed (Y/n)?
